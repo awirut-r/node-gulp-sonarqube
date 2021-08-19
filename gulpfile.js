@@ -5,10 +5,10 @@ gulp.task("default", (callback) => {
   sonarqubeScanner(
     {
       serverUrl: "http://localhost:9000",
-      token: "", // Add token
+      token: "", // ใส่ token
       options: {
-        "sonar.projectBaseDir": "", // Root path project
-        "sonar.working.directory": "", // Root folder node-gulp-sonarqube/new folder sonar-scaner
+        "sonar.projectBaseDir": "", // ใส่ Root project ที่เราต้องการ scan เช่น C:/my-project
+        "sonar.working.directory": "", // ใส่ Root project node-gulp-sonarqube แล้ว/ด้วย sonar-scaner เช่น C:/node-gulp-sonarqube/sonar-scaner
       },
     },
     callback
