@@ -8,7 +8,7 @@ gulp.task("default", (callback) => {
       token: "", // Add token
       options: {
         "sonar.projectBaseDir": "", // Root path project
-        "sonar.working.directory": "c:/node-gulp-sonarqube/sonar-scaner", // Root forder node-gulp-sonarqube
+        "sonar.working.directory": "", // Root folder node-gulp-sonarqube/new folder sonar-scaner
       },
     },
     callback
