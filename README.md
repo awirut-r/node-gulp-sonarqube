@@ -3,7 +3,7 @@
 3. install gulp. run: npm install --global gulp-cli
 4. install projects node-gulp-sonarqube. run: npm install
 5. ไปที่ web browser run localhost:9000
-6. เข้าไปที่ My Account -> Security -> Generate Tokens **เก็บ copy token ไส้ด้วย
+6. เข้าไปที่ My Account -> Security -> Generate Tokens **เก็บ copy token ไว้ด้วย
 7. แก้ไขไฟล์ gulpfile.js
     - token: "", (ใส่ token ที่ได้ copy ไว้ก่อนหน้า)
     - options: {
