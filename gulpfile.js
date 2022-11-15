@@ -5,7 +5,7 @@ gulp.task("default", (callback) => {
   sonarqubeScanner(
     {
       serverUrl: "http://localhost:9000",
-      token: "", // ใส่ token
+      token: "", // token
       options: {
         "sonar.projectBaseDir": "", // Root project Ex=C:/my-project
         "sonar.working.directory": "", // Root node-gulp-sonarqube "/sonar-scaner" Ex=C:/node-gulp-sonarqube/sonar-scaner
