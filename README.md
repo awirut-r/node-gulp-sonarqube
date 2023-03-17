@@ -9,6 +9,10 @@
     - options: {
         "sonar.projectBaseDir": "", Root project [C:/my-project]
         "sonar.working.directory": "", Root file sonar-scaner [C:/node-gulp-sonarqube/sonar-scaner]
+        'sonar.exclusions': 'node_modules/**, coverage/**, public/**, build/**, **/__tests__/**, **/test/**, **.test.js, **.yaml',
+        'sonar.issue.ignore.multicriteria': 't1',
+        'sonar.issue.ignore.multicriteria.t1.ruleKey': 'typescript:S1871',
+        'sonar.issue.ignore.multicriteria.t1.resourceKey': '**/reducers/**',        
       },
 8. run: gulp default
 
