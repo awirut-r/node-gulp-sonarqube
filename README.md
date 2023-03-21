@@ -12,7 +12,11 @@
         'sonar.exclusions': 'node_modules/**, coverage/**, public/**, build/**, **/__tests__/**, **/test/**, **.test.js, **.yaml',
         'sonar.issue.ignore.multicriteria': 't1',
         'sonar.issue.ignore.multicriteria.t1.ruleKey': 'typescript:S1871',
-        'sonar.issue.ignore.multicriteria.t1.resourceKey': '**/reducers/**',        
+        'sonar.issue.ignore.multicriteria.t1.resourceKey': '**/reducers/**',  
+        "sonar.javascript.lcov.reportPaths":
+          "/Users/awirutritsak/Documents/Debt-Acq/tcrb-debtacq-financial/coverage/lcov.info",
+        "sonar.testExecutionReportPaths":
+          "/Users/awirutritsak/Documents/Debt-Acq/tcrb-debtacq-financial/coverage/test-report.xml",        
       },
 8. run: gulp default
 
